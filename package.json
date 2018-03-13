@@ -1,0 +1,31 @@
+{
+  "name": "sleepover",
+  "version": "0.0.1",
+  "description": "step/loop &amp; sleep methods",
+  "license": "MIT",
+  "repository": "http://github.com/darcyclarke/sleepover",
+  "author": {
+    "name": "Darcy Clarke",
+    "email": "darcy@darcyclarke.me",
+    "url": "darcyclarke.me"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "lint": "standard",
+    "test": "npm run lint && ava"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "dependencies": {},
+  "devDependencies": {
+    "ava": "^0.20.0",
+    "standard": "^11.0.0",
+    "xo": "^0.18.2"
+  }
+}
