@@ -2,6 +2,8 @@
 
 > Step/loop &amp; sleep methods
 
+![](https://media.giphy.com/media/nGMyNVfRAsgA8/giphy.gif)
+
 ## Install
 
 ```
