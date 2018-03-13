@@ -9,6 +9,7 @@
     "email": "darcy@darcyclarke.me",
     "url": "darcyclarke.me"
   },
+  "main": "./index.js",
   "engines": {
     "node": ">=4"
   },
@@ -16,9 +17,6 @@
     "lint": "standard",
     "test": "npm run lint && ava"
   },
-  "files": [
-    "index.js"
-  ],
   "keywords": [
     ""
   ],
