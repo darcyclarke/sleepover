@@ -63,7 +63,7 @@ The number, in ms, that you'd like to delay execution of your code. (utilizes a 
 
 Type: `boolean`
 
-Result of the test conditions for defining [`Atomics`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Atomics) support in the current environment. Use this to determine whether ot use `sleep` or `wait` respectively.
+Result of the test conditions for defining [`Atomics`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Atomics) support in the current environment. Use this to determine whether ot use `sleep` or `snooze` respectively.
 
 ## References
 
