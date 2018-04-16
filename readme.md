@@ -13,7 +13,7 @@ $ npm install sleepover
 ## Usage
 
 ```js
-const { sleep, over, wait } = require('sleepover')
+const { sleep, over, snooze } = require('sleepover')
 
 sleep(500)
 //=> delays execution for 500ms using Atomics.wait
