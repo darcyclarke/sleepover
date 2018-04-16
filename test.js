@@ -1,9 +1,16 @@
 const test = require('ava')
-const { sleep, over } = require('./index')
+const { sleep, wait, over } = require('./index')
 
 test('sleep', t => {
   let start = new Date()
   sleep(500)
+  let diff = Math.floor((new Date() - start) / 100) * 100
+  t.is((diff === 500), true, 'Delay execution 500ms')
+})
+
+test('wait', async t => {
+  let start = new Date()
+  await wait(500)
   let diff = Math.floor((new Date() - start) / 100) * 100
   t.is((diff === 500), true, 'Delay execution 500ms')
 })
