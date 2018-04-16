@@ -1,5 +1,7 @@
 # sleepover [![Build Status](https://travis-ci.org/darcyclarke/sleepover.svg?branch=master)](https://travis-ci.org/darcyclarke/sleepover)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/darcyclarke/sleepover.svg)](https://greenkeeper.io/)
+
 > Step/loop &amp; sleep methods
 
 ![](https://media.giphy.com/media/nGMyNVfRAsgA8/giphy.gif)
