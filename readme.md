@@ -67,10 +67,6 @@ Type: `boolean`
 
 Result of the test conditions for defining [`Atomics`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Atomics) support in the current environment. Use this to determine whether ot use `sleep` or `snooze` respectively.
 
-## References
-
- - The`snooze` implementation/fallback is inspired by [wesbos](https://github.com/wesbos/)' [waait](https://github.com/wesbos/waait) script.
-
 ## License
 
 MIT © [Darcy Clarke](http://darcyclarke.me)
