@@ -13,6 +13,10 @@
   "engines": {
     "node": ">=4"
   },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/darcyclarke"
+  },
   "scripts": {
     "lint": "standard",
     "test": "npm run lint && ava"
