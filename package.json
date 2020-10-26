@@ -10,6 +10,7 @@
     "url": "darcyclarke.me"
   },
   "main": "./index.js",
+  "types": "./index.d.ts",
   "engines": {
     "node": ">=4"
   },
