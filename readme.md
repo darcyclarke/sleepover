@@ -1,6 +1,6 @@
 # sleepover ![Tests](https://github.com/darcyclarke/sleepover/actions/workflows/run_tests.yml/badge.svg)
 
-> Step/loop &amp; sleep methods
+> Step, loop &amp; sleep methods
 
 ![](https://media.giphy.com/media/nGMyNVfRAsgA8/giphy.gif)
 
