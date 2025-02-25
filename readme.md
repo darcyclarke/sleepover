@@ -1,4 +1,4 @@
-# sleepover ![Tests](https://github.com/darcyclarke/sleepover/actions/workflows/run_tests.yml/badge.svg)
+# sleepover
 
 > Step, loop &amp; sleep methods
 

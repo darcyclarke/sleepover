@@ -7,7 +7,7 @@
   "author": {
     "name": "Darcy Clarke",
     "email": "darcy@darcyclarke.me",
-    "url": "darcyclarke.me"
+    "url": "https://darcyclarke.me"
   },
   "main": "./index.js",
   "types": "./index.d.ts",
