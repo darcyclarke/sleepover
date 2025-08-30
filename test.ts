@@ -1,17 +1,17 @@
-const test = require('ava')
-const { sleep, snooze, over } = require('./index')
+import test from 'ava'
+import { sleep, snooze, over } from './index'
 
 test('sleep', t => {
   const start = new Date()
   sleep(500)
-  const diff = Math.floor((new Date() - start) / 100) * 100
+  const diff = Math.floor((new Date().getTime() - start.getTime()) / 100) * 100
   t.is((diff === 500), true, 'Delay execution 500ms')
 })
 
 test('snooze', async t => {
   const start = new Date()
   await snooze(500)
-  const diff = Math.floor((new Date() - start) / 100) * 100
+  const diff = Math.floor((new Date().getTime() - start.getTime()) / 100) * 100
   t.is((diff === 500), true, 'Delay execution 500ms')
 })
 
